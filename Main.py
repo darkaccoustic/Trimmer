@@ -1,4 +1,4 @@
-from TrimmerWindows import *
+from AppWindows.TrimmerWindows import *
 
 def run():
     main = MainWindow()

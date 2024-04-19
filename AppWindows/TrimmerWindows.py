@@ -28,13 +28,13 @@ class MainWindow(CTk):
         """Class initializer"""
         super().__init__()
         self.setElements()
-        self.setClickables()
+        # self.setClickables()
         self.getElements()
-        self.getClickables()
+        # self.getClickables()
         set_appearance_mode("system")
-        set_default_color_theme("TrimmerGraphics/TrimmerTheme.json")
+        # set_default_color_theme("TrimmerGraphics/TrimmerTheme.json")
         self.font = Font(font='Constantia',size=18)
-        self.geometry(self.window_geometry if self.window_geometry else "100x100")
+        self.geometry(self.window_geometry if self.window_geometry else "300x300")
         self.title(self.window_title)
         if self.icon_location:
             self.iconbitmap(self.icon_location)
