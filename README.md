@@ -1,0 +1,2 @@
+# Trimmer
+HTML trimming application
