@@ -32,7 +32,7 @@ class MainWindow(CTk):
         self.getElements()
         # self.getClickables()
         set_appearance_mode("system")
-        set_default_color_theme("TrimmerGraphics/TrimmerTheme.json")
+        set_default_color_theme("../TrimmerGraphics/TrimmerTheme.json")
         self.font = Font(font='Constantia',size=18)
         self.geometry(self.window_geometry if self.window_geometry else "300x300")
         self.title(self.window_title)
